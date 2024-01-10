@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 9</title>
+</head>
+<body>
+    <!-- This is Canvas Tag -->
+    <canvas id="mycanvas" height="100" width="50">
+        Your Browser Does not support the canvas tag.
+    </canvas>
+    <script>
+        let canvas = document.getElementById("mycanvas");
+        let ctx = canvas.getContext("2d");
+        ctx.fillStyle = "red";
+        ctx.fillRect(0,0,80,80);
+    </script>
+
+
+<!-- Below Code is for Geolocation api -->
+    <h1>HTML Geolocation</h1>
+<p>Click the button to get your coordinates.</p>
+<button onclick="getLocation()">Try It</button>
+<p id="demo"></p>
+<script>
+    const x = document.getElementById("demo");
+    function getLocation() {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+      } else {
+        x.innerHTML = "Geolocation is not supported by this browser.";
+      }
+    }
+    function showPosition(position) {
+      x.innerHTML = "Latitude: " + position.coords.latitude +
+      "<br>Longitude: " + position.coords.longitude;
+    }
+    </script>
+
+</body>
+</html>
