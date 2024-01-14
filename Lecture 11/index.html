@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lecture 11</title>
+    <style>.hidden {
+      display: none;
+    }
+    </style>
   </head>
   <body>
     <svg width="100" height="100">
@@ -47,9 +51,19 @@
       allowfullscreen
     ></iframe>
 
-    <iframe 
+    <iframe
     width="500"
     height="500"
     src="https://learnwithatharv.blogspot.com/2023/11/java-programming-course-from-basic-to.html" frameborder="0"></iframe>
+
+    <div id="expirationWarning" role="alert">
+      <span class="hidden">Your log in session will expire in 2 minutes</span>
+    </div>
+
+    <script>// removing the 'hidden' class makes the content inside the element visible, which will make the screen reader announce the alert:
+      document
+        .getElementById("expirationWarning")
+        .firstChild.classList.remove("hidden");
+      </script>
   </body>
 </html>
