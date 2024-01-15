@@ -1,0 +1,39 @@
+/* Universal Selector */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background: #000;
+}
+/* Element Selector */
+h1{
+    color: #ff0000;
+}
+h2{
+    color: #ff0000;
+}
+
+/* Class Selector */
+.color{
+    color: blue;
+}
+/* ID Selector */
+#color2{
+    color: gold;
+}
+
+/* Element & Class Selector */
+h1.color{
+    color: blueviolet;
+}
+
+h1.color3{
+    color: darkorange;
+}
+
+h3,h4{
+    color: #d900ff;
+}
+
