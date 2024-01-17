@@ -1,0 +1,13 @@
+/* So the color are in this types:- 1) RGB, 2) HEX, 3) HSL, 4) RGBA, 5) HSLA, 6) Name*/
+
+h1{
+    color: rgba(13, 78, 255, 0.651);
+}
+
+p{
+    color: hsla(133, 100%, 20%, 0.500);
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
