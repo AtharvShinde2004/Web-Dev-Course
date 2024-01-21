@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(240, 171, 59);
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid ;
+}
+
+a:visited {
+    color: green;
+    text-decoration: none;
+    background-color: rgb(59, 240, 107);
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+
+
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
+    background-color: rgb(20, 197, 233);
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+a:active {
+    color: blue;
+    text-decoration: underline;
+    background-color: rgb(210, 18, 220);
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+
+}
