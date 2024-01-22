@@ -1,0 +1,33 @@
+.relative-example{
+    position: relative;
+    left: 200px;
+    top: 200px;
+    background-color: rgb(173, 73, 73);
+    color: aliceblue;
+}
+.absolute-example{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    background-color: black;
+    color: aliceblue;
+}
+.fixed-example{
+    position: fixed;
+    bottom: 100px;
+    left: 100px;
+    background-color: rgb(124, 48, 48);
+    color: aliceblue;
+}
+.sticky-example{
+    position: sticky;
+    left: 100px;
+    background-color: rgb(88, 0, 0);
+    color: aliceblue;
+}
+.static-example{
+    position: static;
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+}
+
