@@ -1,0 +1,44 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/*
+selector::pseudo-element{
+    property: value;
+}
+*/
+/* Note: The First Line Pseudo Element is applied for only Block Level elements
+ */
+p::first-line{
+    color: #ff0000;
+    font-variant: small-caps;
+    /* word-spacing: 1px; */
+    /* letter-spacing: 100px; */
+    /* text-decoration:underline; */
+    /* vertical-align:text-top; */
+    /* text-transform: uppercase; */
+    /* line-height: 100px; */
+}
+/* p::first-letter{
+    color: #000000;
+    font-size: 50px;
+} */
+
+/* h1::before{
+    content: url(thumbs-up-2584_128.gif);
+}
+h1::after{
+    content: url(thumbs-up-2584_128.gif);
+}
+
+::marker{
+    color: red;
+    font-size: 23px;
+    content: url(thumbs-up-2584_128.gif);
+} */
+
+::selection{
+    color: #ff0000;
+    background-color: yellow;
+}

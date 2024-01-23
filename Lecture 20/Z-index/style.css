@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+The Z-index is a stack of order, greater and lower, if the stack is Greater, then the element will come in front of the lower stack.
+*/
+
+/*
+h1{
+z-index: 0; This is Greater Order
+}
+*/
+
+img.img1{
+    width: auto;
+    height: 128px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    /* z-index: -1; This is Lower order */
+}
+
+img.img2{
+    width: auto;
+    height: 200px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+/* Note: If two positioned elements overlap without a z-index specified, the element positioned last in the html code will be shown on the top. */
+
