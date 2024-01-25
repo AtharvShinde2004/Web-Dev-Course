@@ -1,0 +1,50 @@
+/*
+Absolute Lengths
+cm - centimeters
+mm - millimeters
+in - inches (1in = 96px = 2.54cm)
+px* - pixels (1px = 1/96 of 1in)
+pt - points (1pt = 1/72 of 1in)
+pc - picas (1pc = 12pt)
+*/
+/*
+Relative Lengths
+em* - 2times the size of the current font.
+ex - x-height of the current font.
+ch - The width of the "0".
+rem* - the relative length of the root element
+vw - 1% of the width of the viewport
+vh - 1% of the height of the viewport
+vmin - 1% of the viewport's smaller dimension
+vmax - 1% of the viewport's larger dimension
+% - The size that is relative to the parent element
+*/
+/* .h1{
+    font-size: 75pt;
+}
+.h2{
+    font-size: 100px;
+} */
+body {
+	font-family: Arial;
+}
+
+.box {
+	background-color: dodgerblue;
+	margin-bottom: 10px;
+}
+
+.pixel-units {
+	width: 100px;
+}
+
+.percentage-units {
+	width: 50%;
+}
+
+.parent {
+	width: 200px;
+	border: 2px solid black;
+	padding: 5px;
+}
+
