@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+h1{
+    color: coral;
+    text-shadow: 0px 0px 4px #000000;
+
+}
+
+img{
+    /* width ; */
+    height: 200px;
+    /* box-shadow: 10px 11px 15px 0px red; */
+}
+
+div.polaroid{
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+div.container{
+    padding: 5px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+.button{
+    background-color: #aa0404;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
