@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lecture 25</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      var r = document.querySelector(":root");
+
+      function myFunction_get() {
+        var rs = getComputedStyle(r);
+        alert("The Value of --blue is:" + rs.getPropertyValue("--blue"));
+      }
+
+      function myFunction_set() {
+        r.style.setProperty("--blue", "purple");
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Welcome</h1>
+
+    <div class="container">
+      <h2>Hello</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
+        maiores consequuntur facilis aperiam iusto magnam odio numquam a esse
+        atque voluptates consectetur, quas dolore commodi sunt laudantium eius
+        harum obcaecati vero. Sint facilis magnam debitis eveniet dicta corporis
+        magni officiis assumenda, sit laudantium? Eos, necessitatibus error?
+        Sapiente autem cumque nostrum, quo, sunt id recusandae, corrupti
+        obcaecati doloremque dolorum ullam dolorem soluta. Similique placeat
+        nihil dolor esse voluptatum amet temporibus, nisi nemo quidem ipsam
+        eaque doloremque nam inventore expedita cupiditate pariatur illum porro
+        incidunt non laborum aut dolorem perspiciatis quas? Ex et est eligendi
+        praesentium quae optio, corporis facilis harum dolore.
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, minima
+        corrupti vitae in dolor aut? Modi eos quod, assumenda cupiditate neque
+        autem veritatis nobis minima fugit accusamus, ipsam, officiis facilis
+        aperiam expedita magnam natus non ipsum impedit itaque quis. Nulla
+        corporis minima quisquam dolor magnam vitae ab expedita nam ipsum.
+      </p>
+
+      <button type="button" onclick="myFunction_get()">
+        Get CSS Variable with JavaScript
+      </button>
+      <button type="button" onclick="myFunction_set()">
+        Change the Color to Purple
+      </button>
+    </div>
+  </body>
+</html>
