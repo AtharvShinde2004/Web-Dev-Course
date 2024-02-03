@@ -1,0 +1,68 @@
+/*
+This Four things can be checked using the Media Queries
+1) Width and Height of the viewport
+2) Width and Height of the device
+3) Orientation
+4) Resolution
+ */
+
+/*
+Media Types in CSS | Description
+1) all             | It is used for all media devices.
+2) print           | It is used for printers
+3) screen          | Used for computer screens, smartphones, tablets etc.
+4) speech          | Used for Screen Readers that read the screen aloud.
+ */
+
+ /* Features of media query.
+ 1) Color             - The color feature indicates whether a device supports color or monochrome displays.
+ 2) grid               - checks whether the device is grid or bitmap.
+ 3) height 
+ 4) aspect ratio
+ 5) Color index
+ 6) max resolution
+ 7) Monochrome
+ 8) Scan 
+ 9) update 
+ 10) width 
+  */
+#rightsidebar {
+    width: 100px;
+    float: right;
+    height: 150px;
+    background-color: aqua;
+    text-align: center;
+}
+
+#main {
+    margin-right: 200px;
+    text-align: center;
+}
+
+body {
+    background-color: yellow;
+    text-align: center;
+}
+
+@media screen and (min-width: 720px) {
+    body {
+        background-color: yellow;
+        text-align: right;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    #rightsidebar {
+        width: 300px;
+        float: right;
+        height: 150px;
+        background-color: aqua;
+        text-align: right;
+    }
+
+    #main {
+        margin-right: 200px;
+        text-align: right;
+    }
+}
+
