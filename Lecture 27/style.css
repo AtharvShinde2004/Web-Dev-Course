@@ -1,0 +1,63 @@
+
+/*
+1) Flex Direction
+2) Flex Wrap
+3) Flex FLow
+4) Justify Content
+5) Align Items
+6) Align Content
+ */
+
+.flex-container{
+    display: flex;
+    background-color: dodgerblue;
+    /* width: 150px; */
+    height: 600px;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    /* align-content: space-evenly; */
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    /* padding: 20px; */
+    font-size: 30px;
+    /* width: 100px; */
+    text-align: center;
+    line-height: 75px;
+
+}
+
+
+#main {
+    width: 450px;
+    height: 200px;
+    border: 1px solid black;
+    display: -webkit-flex;
+    display: flex;
+    color: white;
+}
+
+h1 {
+    color: #009900;
+    font-size: 42px;
+    margin-left: 50px;
+}
+
+h3 {
+    margin-top: -20px;
+    margin-left: 50px;
+}
+
+#main div {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100px;
+}
+
+/* shrinking the 2nd div compare to others */
+#main div:nth-of-type(2) {
+    flex-shrink: 4;
+}
