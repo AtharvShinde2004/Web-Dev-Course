@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(33, 33, 33);
+    color: white;
+}
+
+.mask1 {
+    -webkit-mask-image: radial-gradient(ellipse, black 50%, rgba(0, 0, 0, 0.5) 50%);
+    mask-image: radial-gradient(ellipse, black 50%, rgba(0, 0, 0, 0.5) 50%);
+  }
+
+p.bg {
+    font-size: 66px;
+    line-height: 80px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: url(https://i0.wp.com/www.frontendhero.dev/wp-content/uploads/2020/03/bg.jpeg?resize=1024%2C713&ssl=1) 0 0 / cover no-repeat;
+    color: #de466c;
+    -webkit-background-clip: text;
+    background-clip:  text;
+    -webkit-text-fill-color: transparent;
+}
