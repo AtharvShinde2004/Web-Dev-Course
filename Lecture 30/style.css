@@ -1,0 +1,23 @@
+div {
+    /* resize: vertical; */
+    /* resize: horizontal; */
+    resize: auto;
+    overflow: auto;
+    border: 2px solid;
+    padding: 20px;
+    width: 300px;
+}
+
+.ex1{
+    margin: 10px;
+    border: 1px solid black;
+    outline: 5px dashed blue;
+    outline-offset: 5px;
+}
+
+.ex2{
+    margin: 20px;
+    border: 1px solid black;
+    outline: 4px solid black;
+    outline-offset: -15px;
+}
